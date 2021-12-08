@@ -37,6 +37,7 @@
         </nav>
 
         <div class="imformation">
+            <div class="ovrliye"></div>
             <img src="/img/display.png" class="mobile">
             <div id="circle">
                 <div class="feature one">
@@ -96,7 +97,7 @@ UpBtn.onclick = function(){
 }
 
 downBtn.onclick = function(){
-    rotateSum  =  rotateValue + "rotate(-90deg)";
+    rotateSum  =  rotateValue + "rotate(90deg)";
     circle.style.transform = rotateSum ;
     rotateValue = rotateSum;
 }
