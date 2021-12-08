@@ -60,6 +60,12 @@ nav{
 .nav_link{
     color: #fff;
     text-transform: uppercase;
+    transition: .3s;
+    letter-spacing: 2px;
+}
+
+.nav_link:hover{
+    color: #9e27b0;
 }
 
 .imformation{
@@ -87,7 +93,7 @@ nav{
 }
 
 .phot{
-    width: 40px;
+    width: 70px;
 }
 
 .feature{
@@ -101,7 +107,7 @@ nav{
 
 .text, .suptext{
     margin: 2px 20px;
-    color: white;
+    color: #fff;
 }
 
 .one{
@@ -166,8 +172,8 @@ nav{
     border-top: 500px solid #fff;
     border-right: 500px solid transparent;
     border-bottom: 500px solid #fff;
-    border-left: 500px solid #fff;
+    border-left: 600px solid #fff;
     position: absolute;
-    left: 0;
+    left: 0;    
     top: 0;
 }
