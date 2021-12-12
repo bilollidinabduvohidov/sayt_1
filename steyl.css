@@ -62,11 +62,15 @@ nav{
     text-transform: uppercase;
     transition: .3s;
     letter-spacing: 2px;
+    font-weight: bold;
 }
 
 .nav_link:hover{
-    color: #9e27b0;
+    color: black;
+    transform: scale(1.2);
 }
+
+
 
 .imformation{
     width: 1000px;
